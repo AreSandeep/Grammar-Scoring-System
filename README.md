@@ -17,7 +17,7 @@ The pipeline extracts linguistic, readability, and prosodic features from each s
 - Readability metrics using `textstat`  
 - Prosodic features (pitch, energy, duration, tempo) via `librosa`  
 - Text fluency estimation via GPT-2 perplexity  
-- Synthetic label generation (grammar quality score 0–10)  
+- Synthetic label generation (grammar quality score 0–5)  
 - Regression model training with `XGBoost`  
 - Inference pipeline for new voice samples  
 
